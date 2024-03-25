@@ -2,7 +2,6 @@ import argparse
 import os
 from tqdm import tqdm
 import py7zr
-import concurrent.futures
 
 def decompress_arw_files(archive_path, destination_path):
     """
